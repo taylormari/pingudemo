@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pingu</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+	<link rel="icon" href="images/handpinch.ico" type="image/x-icon">
+</head>
+<body>
+	<img id ="pingu" src="images/pingu.png" width="10" height="15" onmouseover = "mouseOver(this)" onmouseout="mouseOut(this)">
+	
+	<script>
+		function mouseOver (img) {
+			img.style.height="500px";
+			img.style.width="500px";
+
+		}
+		function mouseOut (img){
+			img.style.width="10px";
+			img.style.height="15px";
+		}
+
+	</script>
+</body>
+</html>
